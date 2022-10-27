@@ -3,6 +3,7 @@ backend:
   repo: JohnVeness/kodi-tv
   auth_scope: repo
   branch: main
+  open_authoring: true
 
 media_folder: "/static/images"
 public_folder: "/images"
