@@ -1,3 +1,11 @@
+[build]
+  publish = "public"
+  command = "npm run build"
+[build.environment]
+  NODE_VERSION = "14.15.0"
+  YARN_VERSION = "1.22.4"
+  YARN_FLAGS = "--no-ignore-optional"
+
 [[redirects]]
   from = "/contact-kodi-team"
   to = "/about/contact"
