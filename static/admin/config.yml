@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: JohnVeness/kodi-tv
+  auth_scope: repo
   branch: main
 
 media_folder: "/static/images"
