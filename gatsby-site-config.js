@@ -313,15 +313,5 @@ module.exports = {
     siteUrl: url,
     author: "Team Kodi",
   },
-  cms: {
-    config: {
-      backend: {
-        name: "github",
-        repo: "JohnVeness/kodi-tv",
-        branch: "main",
-      },
-      site_url: url,
-    },
-  },
   stripe: stripeConfig,
 };
