@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: JohnVeness/kodi-tv
-  auth_scope: repo
+  name: git-gateway
   branch: main
-  open_authoring: true
 
 media_folder: "/static/images"
 public_folder: "/images"
