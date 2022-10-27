@@ -1,5 +1,5 @@
 // gatsby-site-config.js
-let url = "https://dont.care";
+let url = "https://main--nimble-salamander-fb6e44.netlify.app/";
 if (process.env.GATSBY_SITEURL !== undefined) {
   url = process.env.GATSBY_SITEURL;
 }
@@ -316,7 +316,7 @@ module.exports = {
   cms: {
     config: {
       backend: {
-        name: "test-repo",
+        name: "github",
         repo: "JohnVeness/kodi-tv",
         branch: "main",
       },
