@@ -317,8 +317,8 @@ module.exports = {
     config: {
       backend: {
         name: "github",
-        repo: "xbmc/kodi-tv",
-        branch: backend_branch,
+        repo: "JohnVeness/kodi-tv",
+        branch: main,
       },
       site_url: url,
     },
