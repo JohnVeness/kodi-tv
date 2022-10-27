@@ -318,7 +318,7 @@ module.exports = {
       backend: {
         name: "github",
         repo: "JohnVeness/kodi-tv",
-        branch: main,
+        branch: "main",
       },
       site_url: url,
     },
